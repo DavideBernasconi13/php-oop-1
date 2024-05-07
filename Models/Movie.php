@@ -1,14 +1,16 @@
 <?php
 
+include __DIR__ . '/Category.php';
 class Movie
 {
-    public $title;
-    public $cover;
-    public $language;
-    public $price;
-    public $rating;
+    public string $title;
+    public string $cover;
+    public string $language;
+    public float $price;
+    public int $rating;
+    public Category $category;
 
-    public function __construct($title, $cover, $language, $price, $rating)
+    public function __construct($title, $cover, $language, $price, $rating, $category)
     {
         $this->title = $title;
         $this->cover = $cover;

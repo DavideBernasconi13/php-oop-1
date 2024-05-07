@@ -7,8 +7,8 @@ include (__DIR__ . "/Models/Movie.php");
     <div class="container">
         <?php
         /*creo l'istanza */
-        $film1 = new Movie("La vita è bella", "https://pad.mymovies.it/filmclub/2001/10/022/locandina.jpg", "italiano", "3,00", "5");
-        $film2 = new Movie("Star Wars", "https://m.media-amazon.com/images/I/81Bd9H3HP1L._AC_UF1000,1000_QL80_.jpg", "English", "8,00", "2");
+        $film1 = new Movie("La vita è bella", "https://pad.mymovies.it/filmclub/2001/10/022/locandina.jpg", "italiano", 3.50, 5, '');
+        $film2 = new Movie("Star Wars", "https://m.media-amazon.com/images/I/81Bd9H3HP1L._AC_UF1000,1000_QL80_.jpg", "English", 8.00, 2, '');
         ?>
         <!--stampo a schermo i valori dell'oggetto */
         // echo "Il titolo è: " . $film1->title;
