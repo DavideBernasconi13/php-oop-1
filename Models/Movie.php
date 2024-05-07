@@ -17,6 +17,12 @@ class Movie
         $this->rating = $rating;
     }
 
+    /* metodi*/
+    public function print()
+    {
+        echo $this->title . "<br>" . $this->cover;
+    }
+
 
 
 }

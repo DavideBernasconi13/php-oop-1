@@ -18,7 +18,8 @@ include (__DIR__ . "/Models/Movie.php");
         echo $film1->price . " €";
         echo "<br>";
         echo $film1->rating;
-
+        /* stampo il metodo */
+        echo $film1->print();
         ?>
     </div>
 
